@@ -60,7 +60,7 @@
 					时光匆匆，我们毕业之后的时光。
 					<div id="elapseClock"></div>
 				</div>
-				<div id="loveu">
+				<div id="loveu" ondblclick="dblEvent(event)">
 					兄弟直到永永远远。<br/>
 					<div class="signature">- Freeruzy</div>
 				</div>
@@ -101,6 +101,10 @@ if (!document.createElement('canvas').getContext) {
 	adjustCodePosition();
 	$("#code").typewriter();
 }
+
+function dblEvent(e) {
+        $('#loveu').html("Yu Love Xian Forever!");
+} 
 </script>
 <div style="text-align:center;clear:both">
 

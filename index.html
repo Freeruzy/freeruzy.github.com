@@ -106,11 +106,12 @@ function dblEvent(e) {
         $('#loveu').html("Yu Love Xian Forever!");
 } 
 
-    $('#loveu').addEventListener('touchstart', function(event) {  
-           $('#loveu').html("Yu Love Xian Forever!");
-    }, false);
-    $('#loveu').addEventListener('touchend', function(event) {//  
-    }, false);
+var touchStart = function(){
+    $('#loveu').html("Yu Love Xian Forever!");
+}
+var loveu_true = $("#loveu");
+    
+loveu_true.bind('touchstart', touchStart);
 
 </script>
 <div style="text-align:center;clear:both">

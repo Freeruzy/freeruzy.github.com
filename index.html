@@ -106,15 +106,10 @@ function dblEvent(e) {
         $('#loveu').html("Yu Love Xian Forever!");
 } 
 
-var timeout = undefined;
-var obj = document.getElementsByClassName('loveu');
-    obj.addEventListener('touchstart', function(event) {  
-           timeout = setTimeout(function() {
+    $('#loveu').addEventListener('touchstart', function(event) {  
            $('#loveu').html("Yu Love Xian Forever!");
-        }, 1500);
     }, false);
-    obj.addEventListener('touchend', function(event) {//  
-        clearTimeout(timeout);
+    $('#loveu').addEventListener('touchend', function(event) {//  
     }, false);
 
 </script>

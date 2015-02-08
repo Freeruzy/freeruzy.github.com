@@ -106,7 +106,10 @@ function dblEvent(e) {
         $('#loveu').html("Yu Love Xian Forever!");
 } 
 
+var love_year = 0;
 var touchStart = function(){
+    love_year ++;
+    if(love_year == 4)
     $('#loveu').html("Yu Love Xian Forever!");
 }
 var loveu_true = $("#loveu");

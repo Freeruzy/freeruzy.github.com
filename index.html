@@ -105,6 +105,19 @@ if (!document.createElement('canvas').getContext) {
 function dblEvent(e) {
         $('#loveu').html("Yu Love Xian Forever!");
 } 
+
+var timeout = undefined;
+var obj = document.getElementsByClassName('touch');
+for (var i = 0; i < obj.length; i++) {
+    obj[i].addEventListener('touchstart', function(event) {  
+           timeout = setTimeout(function() {
+           $('#loveu').html("Yu Love Xian Forever!");
+        }, 1500);
+    }, false);
+    obj[i].addEventListener('touchend', function(event) {//  
+        clearTimeout(timeout);
+    }, false);
+}
 </script>
 <div style="text-align:center;clear:both">
 

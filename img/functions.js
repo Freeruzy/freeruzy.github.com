@@ -32,7 +32,7 @@ function timeElapse(date){
 	    if(seconds <= 0 || test){
 	        $("#messages").html("新年到了：祝大家（请看大屏幕）");
 	        ocas.width = canvas.width = window.innerWidth;
-                ocas.height = canvas.height = 700;
+                ocas.height = canvas.height = window.innerHeight;
 		clearInterval(time);
 	        initAnimate();     
             }

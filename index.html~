@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <title>拜年了</title>
 <style>
-	body{margin:0;padding:0;overflow: hidden;}
+	body{margin:0;padding:0;background:#ffe;overflow: hidden;}
 	.city{width:100%;position:fixed;bottom: 0px;z-index: 100;}
 	.city img{width: 100%;}
 </style>
@@ -21,7 +21,7 @@
 </style>
 
 <body>
-<div style="height:700px;overflow:hidden;">
+<div style="overflow:hidden;">
     <canvas id='cas' ></canvas>
     <div class="city"><img src="img/city.png" alt="" /></div>
     <img src="img/moon.png" alt="" id="moon" style="visibility: hidden;"/>
@@ -52,7 +52,7 @@
                         <span class="keyword">Mother</span> name = <span class="keyword">Guirong</span> ;<br /> 
                         <span class="keyword">Brother</span> name = <span class="keyword">Zhongyang</span> ;<br />
 			<span class="comments">// The whole family. </span><br />
-			Two children have grown up, it means that parents have in years;<br />
+			Two children have grown up, <br />it means that parents have in years;<br />
 			<span class="comments">// They love each other.</span><br />
 	
 			The <span class="keyword">2015</span> will <span class="keyword">coming</span>;<br />

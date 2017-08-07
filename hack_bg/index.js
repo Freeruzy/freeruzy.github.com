@@ -135,7 +135,7 @@ var HackBGLoader = function(c, cw, ch){
 	this.Particle.prototype.render = function(){
         _this.ctx.beginPath();
         _this.ctx.fillStyle = _this.rgbString + "0.8" + ")";
-        _this.ctx.font = this.change+"px sans-serif bold"
+        _this.ctx.font = this.change+"px sans-serif"
         _this.ctx.fillText(this.flake,this.x, this.y);
         _this.ctx.closePath();
         _this.ctx.fill();

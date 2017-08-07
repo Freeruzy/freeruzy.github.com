@@ -187,7 +187,7 @@ var HackBGLoader = function(c, cw, ch){
 
     this.drawText = function(text){
         this.ctx.save();
-        this.ctx.font = "300px sans-serif bold";
+        this.ctx.font = "300px sans-serif";
         this.ctx.fillStyle = "rgba(168,168,168,1)";
         this.ctx.textAlign = "center";
         this.ctx.textBaseline = "middle";

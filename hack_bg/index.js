@@ -37,6 +37,7 @@ var HackBGLoader = function(c, cw, ch){
 	/*========================================================*/
 	this.Particle = function(){
         var i = _this.dots.length;
+		alert(i);
         var dot = _this.dots[Math.floor(Math.random() * i)];
 		this.x = dot.x;
         this.dx = dot.x;

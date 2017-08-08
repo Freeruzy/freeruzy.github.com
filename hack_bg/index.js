@@ -196,8 +196,8 @@ var HackBGLoader = function(c, cw, ch){
 			for(var x=0;x<imgData.width;x++){
 				for(var y=0;y<imgData.height;y++){
 					var i = (y*imgData.width + x)*4;
-					alert(imgData.data[i-3]+" " +imgData.data[i-2]+" " +imgData.data[i-1] +" " +imgData.data[i] );
-					if(imgData.data[i] >= 128 && !(imgData.data[i-1] == 255 && imgData.data[i-2] == 255 && imgData.data[i-3] == 255)){
+					//alert(imgData.data[i-3]+" " +imgData.data[i-2]+" " +imgData.data[i-1] +" " +imgData.data[i] );
+					if(imgData.data[i] >= 128 && !(imgData.data[i-1] > 250 && imgData.data[i-2] > 250 && imgData.data[i-3] > 250)){
 						var dot = new Dot(x , y);
 						_this.dots.push(dot);
 					}

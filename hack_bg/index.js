@@ -198,7 +198,6 @@ var HackBGLoader = function(c, cw, ch){
 				for(var y=0;y<imgData.height;y++){
 					var i = (y*imgData.width + x)*4;
 					if(imgData.data[i] >= 128){
-						alert(x);
 						var dot = new Dot(x , y);
 						_this.dots.push(dot);
 					}

@@ -191,15 +191,16 @@ var HackBGLoader = function(c, cw, ch){
         var img = new Image();
 		img.src = "clxh.jpg";
 		img.onload = function() {
-			this.ctx.drawImage(img,0,0);
-			var imgData = this.ctx.getImageData(0,0,this.cw , this.ch);
-			//this.ctx.clearRect(0,0,this.cw , this.ch);
+			_this.ctx.drawImage(img,0,0);
+			var imgData = _this.ctx.getImageData(0,0,_this.cw , _this.ch);
+			//_this.ctx.clearRect(0,0,_this.cw , _this.ch);
 			for(var x=0;x<imgData.width;x++){
 				for(var y=0;y<imgData.height;y++){
 					var i = (y*imgData.width + x)*4;
 					if(imgData.data[i] >= 128){
 						var dot = new Dot(x , y);
-						this.dots.push(dot);
+						_this.dots.push(dot);
+						alert(_this.dots.length);
 					}
 				}
 			}

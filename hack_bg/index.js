@@ -28,8 +28,8 @@ var HackBGLoader = function(c, cw, ch){
 	this.init = function(){
 		this.getimg();
         //this.getimgData("F");
-		_this.createParticles();
-		this.loop();
+		//_this.createParticles();
+		//this.loop();
 	};
 	
 	/*========================================================*/	
@@ -204,6 +204,8 @@ var HackBGLoader = function(c, cw, ch){
 					}
 				}
 			}
+			_this.createParticles();
+			_this.loop();
 		}
     };
 

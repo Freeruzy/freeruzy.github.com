@@ -26,10 +26,10 @@ var HackBGLoader = function(c, cw, ch){
 	/* Initialize
 	/*========================================================*/
 	this.init = function(){
-		this.getimg();
-        //this.getimgData("F");
-		//_this.createParticles();
-		//this.loop();
+		//this.getimg();
+        this.getimgData("F");
+		_this.createParticles();
+		this.loop();
 	};
 	
 	/*========================================================*/	

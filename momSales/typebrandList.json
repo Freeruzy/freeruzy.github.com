@@ -7,9 +7,6 @@
             "level": "level1",
             "nodes": [
                 {
-            
-                },
-                {
                     "id": 11,
                     "tree": {
                         "id": 11,
@@ -26,7 +23,7 @@
                                     "popular": 10,
                                 }
                             },
-							                            {
+							{
                                 "id": 13,
                                 "tree": {
                                     "id": 13,
@@ -49,9 +46,6 @@
             "desc": "营养补充食品",
             "level": "level1",
             "nodes": [
-                {
-                    
-                },
                 {
                     "id": 21,
                     "tree": {
@@ -95,9 +89,6 @@
             "level": "level1",
             "nodes": [
                 {
-                    
-                },
-                {
                     "id": 31,
                     "tree": {
                         "id": 31,
@@ -137,9 +128,6 @@
             "desc": "美容化妆用品",
             "level": "level1",
             "nodes": [
-                {
-                    
-                },
                 {
                     "id": 41,
                     "tree": {
@@ -182,9 +170,6 @@
             "level": "level1",
             "nodes": [
                 {
-                    
-                },
-                {
                     "id": 51,
                     "tree": {
                         "id": 51,
@@ -225,9 +210,6 @@
             "desc": "健康生活用品",
             "level": "level1",
             "nodes": [
-                {
-                   
-                },
                 {
                     "id": 61,
                     "tree": {

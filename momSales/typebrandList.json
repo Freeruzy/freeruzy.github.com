@@ -7,6 +7,9 @@
             "level": "level1",
             "nodes": [
                 {
+            
+                },
+                {
                     "id": 11,
                     "tree": {
                         "id": 11,
@@ -46,6 +49,9 @@
             "desc": "营养补充食品",
             "level": "level1",
             "nodes": [
+                {
+                    
+                },
                 {
                     "id": 21,
                     "tree": {
@@ -89,6 +95,9 @@
             "level": "level1",
             "nodes": [
                 {
+                    
+                },
+                {
                     "id": 31,
                     "tree": {
                         "id": 31,
@@ -128,6 +137,9 @@
             "desc": "美容化妆用品",
             "level": "level1",
             "nodes": [
+                {
+                    
+                },
                 {
                     "id": 41,
                     "tree": {
@@ -170,6 +182,9 @@
             "level": "level1",
             "nodes": [
                 {
+                    
+                },
+                {
                     "id": 51,
                     "tree": {
                         "id": 51,
@@ -180,7 +195,7 @@
                                 "id": 52,
                                 "tree": {
                                     "id": 52,
-                                    "desc": 竹珍®益齿护龈牙膏,
+                                    "desc": "竹珍®益齿护龈牙膏",
                                     "price": 25,
                                     "logo": "http://www.5dgz.com/UpLoad/2016-8/20168517315875.jpg",
                                     "popular": null,
@@ -210,6 +225,9 @@
             "desc": "健康生活用品",
             "level": "level1",
             "nodes": [
+                {
+                   
+                },
                 {
                     "id": 61,
                     "tree": {

@@ -6,9 +6,7 @@
             "desc": "功能保健食品",
             "level": "level1",
             "nodes": [
-                {
-            
-                },
+                {},
                 {
                     "id": 11,
                     "tree": {
@@ -20,20 +18,20 @@
                                 "id": 12,
                                 "tree": {
                                     "id": 12,
-                                    "desc": "松珍酒礼盒",
+                                    "desc": "松珍®酒礼盒",
                                     "price": 552,
                                     "logo": "http://www.5dgz.com/UpLoad/2017-6/2017661917337188.jpg",
-                                    "popular": 10,
+                                    "popular": 10
                                 }
                             },
-							{
+                            {
                                 "id": 13,
                                 "tree": {
                                     "id": 13,
-                                    "desc": "国珍双松片",
+                                    "desc": "国珍®双松片",
                                     "price": 110,
                                     "logo": "http://www.5dgz.com/UpLoad/2016-3/20163191130509726.jpg",
-                                    "popular": 10,
+                                    "popular": 10
                                 }
                             }
                         ]
@@ -49,9 +47,7 @@
             "desc": "营养补充食品",
             "level": "level1",
             "nodes": [
-                {
-                    
-                },
+                {},
                 {
                     "id": 21,
                     "tree": {
@@ -66,19 +62,17 @@
                                     "desc": "参咖动饮固体饮料",
                                     "price": 270,
                                     "logo": "http://www.5dgz.com/UpLoad/2017-6/201765941488313.jpg",
-                                    "popular": null,
-    
+                                    "popular": null
                                 }
                             },
                             {
                                 "id": 23,
                                 "tree": {
                                     "id": 23,
-                                    "desc": "国珍松竹梅精品礼盒",
+                                    "desc": "国珍®松竹梅精品礼盒",
                                     "price": 1026,
                                     "logo": "http://www.5dgz.com/UpLoad/2017-6/2017661919559732.jpg",
-                                    "popular": 16,
-       
+                                    "popular": 16
                                 }
                             }
                         ]
@@ -94,9 +88,7 @@
             "desc": "体质养生食品",
             "level": "level1",
             "nodes": [
-                {
-                    
-                },
+                {},
                 {
                     "id": 31,
                     "tree": {
@@ -108,20 +100,20 @@
                                 "id": 32,
                                 "tree": {
                                     "id": 32,
-                                    "desc": "国珍香苏回青粉",
+                                    "desc": "国珍®香苏回青粉—9号粉",
                                     "price": 398,
                                     "logo": "http://www.5dgz.com/UpLoad/2016-3/2016318173373177.jpg",
-                                    "popular": 21,
+                                    "popular": 21
                                 }
                             },
                             {
                                 "id": 33,
                                 "tree": {
                                     "id": 33,
-                                    "desc": "国珍松苓薏仁粉",
+                                    "desc": "国珍®松苓薏仁粉—5号粉",
                                     "price": 294,
                                     "logo": "http://www.5dgz.com/UpLoad/2016-3/20163181737402154.jpg",
-                                    "popular": 22,
+                                    "popular": 22
                                 }
                             }
                         ]
@@ -137,9 +129,7 @@
             "desc": "美容化妆用品",
             "level": "level1",
             "nodes": [
-                {
-                    
-                },
+                {},
                 {
                     "id": 41,
                     "tree": {
@@ -151,25 +141,24 @@
                                 "id": 42,
                                 "tree": {
                                     "id": 42,
-                                    "desc": "香兰阁活肤养颜精华露（新）",
+                                    "desc": "香兰阁®活肤养颜精华露（新）",
                                     "price": 384,
                                     "logo": "http://www.5dgz.com/UpLoad/2016-8/201685171347571.jpg",
-                                    "popular": null,
+                                    "popular": null
                                 }
                             },
                             {
                                 "id": 43,
                                 "tree": {
                                     "id": 43,
-                                    "desc": "香兰阁活肤养颜晚霜（新）",
+                                    "desc": "香兰阁®活肤养颜晚霜（新）",
                                     "price": 320,
                                     "logo": "http://www.5dgz.com/UpLoad/2016-8/2016851712228678.jpg",
-                                    "popular": null,
+                                    "popular": null
                                 }
                             }
                         ]
                     }
-                
                 }
             ]
         }
@@ -181,9 +170,7 @@
             "desc": "个人护理用品",
             "level": "level1",
             "nodes": [
-                {
-                    
-                },
+                {},
                 {
                     "id": 51,
                     "tree": {
@@ -195,26 +182,25 @@
                                 "id": 52,
                                 "tree": {
                                     "id": 52,
-                                    "desc": "竹珍益齿护龈牙膏",
+                                    "desc": "竹珍®益齿护龈牙膏",
                                     "price": 25,
                                     "logo": "http://www.5dgz.com/UpLoad/2016-8/20168517315875.jpg",
-                                    "popular": null,
+                                    "popular": null
                                 }
                             },
                             {
                                 "id": 53,
                                 "tree": {
                                     "id": 53,
-                                    "desc": "竹珍细致护理型牙刷",
+                                    "desc": "竹珍®细致护理型牙刷",
                                     "price": 60,
                                     "logo": "http://www.5dgz.com/UpLoad/2016-8/2016851729377421.jpg",
-                                    "popular": null,
+                                    "popular": null
                                 }
                             }
                         ]
                     }
                 }
-                
             ]
         }
     },
@@ -225,9 +211,7 @@
             "desc": "健康生活用品",
             "level": "level1",
             "nodes": [
-                {
-                   
-                },
+                {},
                 {
                     "id": 61,
                     "tree": {
@@ -242,7 +226,7 @@
                                     "desc": "竹珍®竹纤维袜",
                                     "price": 99,
                                     "logo": "http://www.5dgz.com/UpLoad/2016-3/20163191232361824.jpg",
-                                    "popular": 36,
+                                    "popular": 36
                                 }
                             },
                             {
@@ -252,14 +236,13 @@
                                     "desc": "矿泉仿生杯",
                                     "price": 460,
                                     "logo": "http://www.5dgz.com/UpLoad/2016-3/2016319124630632.jpg",
-                                    "popular": 37,
+                                    "popular": 37
                                 }
                             }
                         ]
                     }
-                
                 }
             ]
         }
-    } 
+    }
 ]
